@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'NanumGothic';
+  src: local('NanumGothic'), url(./fonts/NanumGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBrushScript';
+  src: local('NanumBrushScript'), url(./fonts/NanumBrushScript.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'NanumGothic', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'NanumGothic', source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
